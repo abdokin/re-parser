@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     }
 
     std::string regexString = argv[1]; // Get the regular expression from command line argument
-    RegExParser parser(expandExpression(regexString));
+    RegExParser parser(regexString);
 
     try
     {
